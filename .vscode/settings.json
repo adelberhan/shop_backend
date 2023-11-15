@@ -1,0 +1,27 @@
+{
+  "files.exclude": {
+    "node_modules/": true,
+    "package-lock.json": true
+  },
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "variable.other.constant",
+        "settings": {
+          "foreground": "#17d3b0"
+        }
+      },{
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic",
+          "foreground": "#50c660"
+        }
+      }
+      
+    ]
+},
+"cSpell.words": [
+  "userid"
+],
+
+}
